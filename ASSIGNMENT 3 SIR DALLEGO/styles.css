@@ -1,0 +1,61 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    font-family: 'Poppins', sans-serif;
+    width: 400px; /* Increased width */
+    margin: 50px auto;
+    padding: 40px; /* Increased padding */
+    background-color: #F0E68C; /* Light pink */
+    border-radius: 20px; /* Increased border radius */
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text */
+    border: solid 2px black;
+    font-weight: bold;
+    color: black;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white; /* Dark pink */
+    font-size: 24px; /* Increased font size */
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0; /* Increased margin */
+    color: black;
+    font-size: 22px; /* Increased font size */
+}
+input[type="number"], button {
+    margin-top: 20px; /* Increased margin top */
+    padding: 15px 30px; /* Increased padding */
+    font-size: 18px; /* Increased font size */
+    border: 2px solid black; /* Dark pink */
+    border-radius: 10px; /* Increased border radius */
+    background-color: white; /* Light pink */
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: white; /* Dark pink */
+    color: black;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: white; /* Darker pink */
+}
+
+#outputtext {
+    font-size: 15px; /* Increased font size */
+    color: black;
+    margin-top: 30px; /* Increased margin top */
+}
+
